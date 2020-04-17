@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+        a,
+        p {
+            font-family: "Roboto", "Arial", sans-serif;
+            text-decoration: none;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .layout {
+            min-height: 100%;
+            font-size: 0;
+
+        }
+
+        /* Header styles */
+        .grid > .grid__header {
+            background-color: #fbebea;
+        }
+
+        .grid > .grid__header > .grid__header_wrapper {
+            display: flex;
+            align-items: flex-end;
+            max-width: 1306px;
+            margin: 0 auto;
+            padding: 60px 42px 0;
+        }
+
+        .grid > .grid__header > .grid__header_wrapper > .grid__header-logo {
+            margin-right: 35px;
+            font-family: 'Playfair Display', 'Times New Roman', serif;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            color: #2d2829;
+        }
+
+        .grid > .grid__header > .grid__header_wrapper > .grid__header-navigation {
+            margin-right: auto;
+        }
+
+        .grid > .grid__header > .grid__header_wrapper > .navigation {
+            display: flex;
+            align-items: center;
+        }
+
+        .grid > .grid__header > .grid__header_wrapper > .navigation > .navigation__item:not(:last-of-type) {
+            margin-right: 24px;
+        }
+
+        .grid > .grid__header > .grid__header_wrapper > .navigation > .navigation__item > a {
+            padding: 0 10px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            color: #2d2829;
+        }
+
+        .grid > .grid__header > .grid__header_wrapper > .navigation > .navigation__item:hover > a {
+            color: #f50049;
+        }
+
+        .grid > .grid__header > .grid__header_wrapper > .grid__header-phone {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 16px;
+            color: #2d2829;
+        }
+
+        /* Footer styles */
+        .grid > .grid__footer {
+            background-color: #e8e8e8;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper {
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            max-width: 1306px;
+            margin: 0 auto;
+            padding: 40px 42px 0;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper > .grid__footer-logo {
+            font-family: 'Playfair Display', 'Times New Roman', serif;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            color: #2d2829;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper > .grid__footer-navigation {
+            margin: 0 auto;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper > .navigation {
+            display: flex;
+            align-items: center;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper > .navigation > .navigation__item:not(:last-of-type) {
+            margin-right: 24px;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper > .navigation > .navigation__item > a {
+            padding: 0 10px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            color: #2d2829;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper > .navigation > .navigation__item:hover > a {
+            color: #f50049;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper > .socials {
+            display: flex;
+            align-items: center;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper > .socials > .socials__item:not(:last-of-type) {
+            margin-right: 18px;
+        }
+
+        .grid > .grid__footer > .grid__footer_wrapper > .grid__footer-copyright {
+            width: 100%;
+            margin-top: 42px;
+            padding: 19px 0 20px;
+            border-top: 1px solid rgba(45, 40, 151, 0.1);
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            color: #9c9c9c;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <div class="grid">
+        <div class="grid__header">
+            <div class="grid__header_wrapper">
+                <a class="grid__header-logo" href="">Cakes</a>
+                <ul class="grid__header-navigation navigation">
+                    <li class="navigation__item">
+                        <a href="#">Наши торты</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Индивидуальный заказ</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Отзывы</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">О нас</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Как заказать</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <a class="grid__header-phone" href="">+7 123 456 78 90</a>
+            </div>
+        </div>
+        <div class="">
+            <!-- Контентная часть -->
+        </div>
+        <div class="grid__footer">
+            <div class="grid__footer_wrapper">
+                <a class="grid__footer-logo" href="">Cakes</a>
+                <ul class="grid__footer-navigation navigation">
+                    <li class="navigation__item">
+                        <a href="#">Наши торты</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Индивидуальный заказ</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Отзывы</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">О нас</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Как заказать</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="grid__footer-socials socials">
+                    <li class="socials__item">
+                        <a href="#">
+                            <img src="img/icon-instagram.png" width="23" height="23" alt="Мы в Instagram" />
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#">
+                            <img src="img/icon-vkontakte.png" width="31" height="19" alt="Мы в VK" />
+                        </a>
+                    </li>
+                </ul>
+                <p class="grid__footer-copyright">© 2018 Cakes</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
